@@ -1,6 +1,9 @@
 # JMenu
 Ejecución del programa:
+
 ![image](https://user-images.githubusercontent.com/96399138/214475042-bc385eda-9142-4c5b-b04a-ff847157a7a1.png)
+
+
 En este caso tenemos 3 menus principales, los cuales son: Archivo, Configuración y Ver.
 <br>
 Dentro de cada uno de estos se encuentran diferentes tipos de opciones para visualizar cada una de ellas tenemos que colocar el cursor sobre cada una.
