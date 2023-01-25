@@ -26,3 +26,13 @@ Ver:
 
 
 ![image](https://user-images.githubusercontent.com/96399138/214475329-8ea8ad2d-6e90-4206-b189-d85c39fa72db.png)
+
+
+Video de como instalar los JMenuBar - JMenu - JMenuItem:
+<br>
+
+https://user-images.githubusercontent.com/96399138/214479062-3f5af99a-4ec2-41f4-88a5-10e079843b1e.mp4
+
+Para la utilizacion del JMenuBar y el JMenu tendremos que colocar la opción: Is container para almacenar los JMenuItem dentro de las mismas
+
+![image](https://user-images.githubusercontent.com/96399138/214479273-b883fe40-0f8b-47f6-bcfa-8552501cf710.png)
