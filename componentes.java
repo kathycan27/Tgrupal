@@ -21,31 +21,6 @@ public class componentes {
 
 
     }
-    private void inicio(){
-        //Obtenemos una fecha de inicio, será la fecha actual del sistema
-        Date inicio = calendar.getTime();
-        //Indicamos año hasta -100 del actual
-        calendar.add(Calendar.YEAR, -100);
-        //Guardamos la configuración en un DATE
-        Date fechaAnterior = calendar.getTime();
-        //Indicamos año hasta +200 del actual
-        calendar.add(Calendar.YEAR, 200);
-        //Guardamos la configuración en un DATE
-        Date fechaPosterior = calendar.getTime();
-        //Usamos el contructor de abajo para crear un modelo para el Spinner
-        //SpinnerDateModel(Date value, Comparable start, Comparable end, int calendarField)
-        //Utilizamos los datos que creamos más arriba
-        //Para fecha utilizamos Calendar.YEAR y para hora Calendar.HOUR, el resto puede ser igual
-        SpinnerModel fechaModel = new SpinnerDateModel(inicio, fechaAnterior, fechaPosterior, Calendar.YEAR);
-        SpinnerModel horaModel = new SpinnerDateModel(inicio, fechaAnterior, fechaPosterior, Calendar.HOUR);
-        //Indicamos el model para cada Spinner además del formato de fecha y hora según corresponda.
-        JSpinner fecha = new JSpinner();
-        fecha.setModel(fechaModel);
-        fecha.setEditor(new JSpinner.DateEditor(fecha, "dd/MM/yyyy"));
-        JSpinner hora = new JSpinner();
-        hora.setModel(horaModel);
-        hora.setEditor(new JSpinner.DateEditor(hora, "HH:mm:ss"));
-    }
 
     public static void main(String[] args) {
         JFrame frame =new JFrame("Calculadora");
