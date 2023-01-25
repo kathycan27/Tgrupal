@@ -1,6 +1,6 @@
 # JSpinner
 
-link: https://github.com/kathycan27/Tgrupal.git
+link:https://vm.tiktok.com/ZMYRTM3uk/
 
 Se presenta un ejemplo de la utilización del JSpinner: 
 
