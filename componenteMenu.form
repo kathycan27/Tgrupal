@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="componenteMenu">
+  <grid id="27dc6" binding="panel2" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="65" y="20" width="504" height="332"/>
+    </constraints>
+    <properties>
+      <foreground color="-10453851"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9e725" class="javax.swing.JMenuBar" binding="principal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <foreground color="-10453851"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4c848" class="javax.swing.JMenu" binding="menu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Archivo"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6396" class="javax.swing.JMenuItem" binding="crear">
+                <constraints/>
+                <properties>
+                  <text value="Crear nuevo archivo"/>
+                </properties>
+              </component>
+              <component id="f9a08" class="javax.swing.JMenuItem" binding="abrir">
+                <constraints/>
+                <properties>
+                  <text value="Abrir nuevo archivo"/>
+                </properties>
+              </component>
+              <component id="ee56c" class="javax.swing.JMenuItem" binding="edit">
+                <constraints/>
+                <properties>
+                  <text value="Editar archivo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e62f6" class="javax.swing.JMenu" binding="confi" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <text value="Configuración"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9db2c" class="javax.swing.JMenuItem" binding="color">
+                <constraints/>
+                <properties>
+                  <text value="Elegir color fondo"/>
+                </properties>
+              </component>
+              <component id="ce430" class="javax.swing.JMenuItem" binding="tamaño">
+                <constraints/>
+                <properties>
+                  <text value="Elegir tamaño"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ce0f7" class="javax.swing.JMenu" binding="ver" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <text value="Ver"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1a5a2" class="javax.swing.JMenuItem" binding="fuente">
+                <constraints/>
+                <properties>
+                  <text value="Fuente de texto"/>
+                </properties>
+              </component>
+              <component id="3cdc" class="javax.swing.JMenuItem" binding="cantidad">
+                <constraints/>
+                <properties>
+                  <text value="Cantidad de archivos"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="75aa4">
+            <constraints/>
+          </vspacer>
+        </children>
+      </grid>
+      <hspacer id="9e551">
+        <constraints border-constraint="South"/>
+      </hspacer>
+      <component id="8167c" class="javax.swing.JLabel" binding="texto">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font name="Arial" size="20"/>
+          <text value="Ejemplo JMenu"/>
+        </properties>
+      </component>
+      <hspacer id="55b1a">
+        <constraints border-constraint="East"/>
+      </hspacer>
+    </children>
+  </grid>
+</form>
